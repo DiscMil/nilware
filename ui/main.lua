@@ -1,6 +1,7 @@
 local CoreGui = game:GetService("CoreGui")
 local UserInput = game:GetService("UserInputService")
 local HttpService = game:GetService("HttpService")
+local nilwareVersion = "nilware c2.1"
 
 local Interface = import("rbxassetid://11389137937")
 
@@ -50,9 +51,14 @@ local Base = Interface.Base
 local Drag = Base.Drag
 local Status = Base.Status
 local Collapse = Drag.Collapse
+local nilTitle = Drag.Title
 
 function oh.setStatus(text)
 	Status.Text = '• Status: ' .. text
+end
+
+function oh.setVersion(text)
+	nilTitle.Text = text
 end
 
 function oh.getStatus()

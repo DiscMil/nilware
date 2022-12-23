@@ -7,7 +7,10 @@ end
 local web = true
 local user = "DiscMil" -- change if you're using a fork
 local branch = "revision"
+local nilwareV = "nilware c2.1"
 local importCache = {}
+
+oh.setVersion(nilwareV)
 
 local function hasMethods(methods)
     for name in pairs(methods) do
