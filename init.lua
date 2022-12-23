@@ -10,8 +10,6 @@ local branch = "revision"
 local nilwareV = "nilware c.2.1"
 local importCache = {}
 
-oh.setVersion(nilwareV)
-
 local function hasMethods(methods)
     for name in pairs(methods) do
         if not environment[name] then
