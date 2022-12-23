@@ -5,7 +5,7 @@ if oh then
 end
 
 local web = true
-local user = "DiscMil" -- change if you're using a fork
+local user = "DiscMil" -- bro changed this cause this shitty ass g-v broke
 local branch = "revision"
 local nilwareV = "nilware c.2.1"
 local importCache = {}
