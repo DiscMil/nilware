@@ -14,7 +14,8 @@ local requiredMethods = {
     ScriptScanner = import("modules/ScriptScanner").RequiredMethods,
     ModuleScanner = import("modules/ModuleScanner").RequiredMethods,
     ClosureSpy = import("modules/ClosureSpy").RequiredMethods,
-    RemoteSpy = import("modules/RemoteSpy").RequiredMethods
+    RemoteSpy = import("modules/RemoteSpy").RequiredMethods,
+    Config = import("modules/Config").RequiredMethods
 }
 
 local constants = {
