@@ -1,9 +1,9 @@
 local CoreGui = game:GetService("CoreGui")
 local UserInput = game:GetService("UserInputService")
 local HttpService = game:GetService("HttpService")
-local nilwareVersion = "nilware c2.1"
+local nilwareVersion = "nilware c.2.1"
 
-local Interface = import("rbxassetid://11389137937")
+local Interface = import("rbxassetid://11896433085") -- 11389137937
 
 if oh.Cache["ui/main"] then
 	return Interface
@@ -60,6 +60,8 @@ end
 function oh.setVersion(text)
 	nilTitle.Text = text
 end
+
+oh.setVersion(nilwareVersion)
 
 function oh.getStatus()
 	return Status.Text:gsub('• Status: ', '')

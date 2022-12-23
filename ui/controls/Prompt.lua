@@ -1,4 +1,4 @@
-local Prompts = import("rbxassetid://11389137937").Base.Prompts
+local Prompts = import("rbxassetid://11896433085").Base.Prompts -- 11389137937
 
 local Prompt = {}
 local currentPrompt
