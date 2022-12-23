@@ -41,7 +41,7 @@ end)
 
 local constants = {
 	opened = UDim2.new(0.5, -325, 0.5, -175),
-	closed = UDim2.new(0.5, -325, 0, -400),
+	closed = UDim2.new(0.413, -325, -0.6, -175),
 	reveal = UDim2.new(0.5, -15, 0, 20),
 	conceal = UDim2.new(0.5, -15, 0, -75)
 }
